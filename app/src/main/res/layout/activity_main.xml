@@ -13,6 +13,17 @@
         android:padding="10dp"
         android:text="Load Banner" />
 
+    <Button
+        android:id="@+id/load_interstetial_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/load_banner"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Load Interstetial Banner"
+        android:layout_alignParentLeft="true" />
+
     <com.google.android.gms.ads.doubleclick.PublisherAdView xmlns:ads="http://schemas.android.com/apk/res-auto"
         android:id="@+id/publisherAdView"
         android:layout_width="wrap_content"
@@ -20,7 +31,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         ads:adSize="BANNER"
-        ads:adUnitId="/21747751703/mrtehran_320_50">
+        ads:adUnitId="/21747751703/MXBannerTest">
 
     </com.google.android.gms.ads.doubleclick.PublisherAdView>
 </RelativeLayout>
