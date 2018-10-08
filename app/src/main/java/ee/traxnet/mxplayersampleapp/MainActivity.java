@@ -76,8 +76,6 @@ public class MainActivity extends Activity {
             public void onAdFailedToLoad(int errorCode) {
                 Log.e(TAG, "iAd Failed to Load: errorCode " + errorCode);
                 Toast.makeText(MainActivity.this, "Ad Load Failed", Toast.LENGTH_LONG).show();
-
-                mPublisherInterstitialAd.loadAd(new PublisherAdRequest.Builder().build());
             }
 
             @Override
